@@ -1,0 +1,84 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica;
+}
+
+h1, p {
+    margin-left: 5%;
+}
+
+#table-container {
+    position: absolute;
+    width: 50%;
+    height: 80%;
+    background-color: white;
+    display: inline-block;
+    margin-left: 5%;
+}
+
+#control-container {
+    position: absolute;
+    width: 20%;
+    height: 80%;
+    background-color: gray;
+    display: inline-block;
+    margin-left: 55%;
+}
+
+#control-container > button {
+    display: inline;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 4px;
+    width: 50%;
+    background-color: white;
+}
+
+#control-container > p {
+    color: white;
+    margin-left: 10px;
+
+}
+
+#sim-table {
+    background-color: black;
+}
+
+.node {
+    width: 25px;
+    height: 25px;
+}
+
+.empty {
+    background-color: white;
+}
+
+.start {
+    background-color: green;
+}
+
+.end {
+    background-color: red;
+}
+
+.visited {
+    background-color: #99ccff;
+}
+
+.blocked {
+    background-color: darkgray;
+}
+
+.solution-path {
+    background-color: #0066ff;
+}
+
+h3 {
+    position: absolute;
+    display: block;
+    margin-left: 5%;
+    margin-top: 48%;
+}

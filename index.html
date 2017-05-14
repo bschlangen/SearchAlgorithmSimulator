@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Brenten Schlangen">
+        <title>Graphical Search Simulator</title>
+        <link rel="stylesheet" type="text/css" href="./style.css">
+        <script src="jquery-3.2.0.min.js"></script>
+        <script src="node.js"></script>
+        <script src="Queue.js"></script>
+        <script src="searchSpace.js"></script>
+        <script src="bfs.js"></script>
+        <script src="astar.js"></script>
+        <script src="greedy.js"></script>
+    </head>
+    <body>
+        <h1>Search Simulation</h1>
+        <p>Click inside the grid to setup the search space.</p>
+        <div id="table-container"></div>
+        <div id="control-container">
+            <button id="bfs-button">Breadth-First Search</button>
+            <button id="greedy-button">Greedy Search</button>
+            <button id="astar-button">A* Search</button>
+            <button id="reset-button">Reset</button>
+            <p>Explored Nodes: <span id="explored-count">0</span></p>
+            <p>Final Path Length: <span id="final-path-count">0</span></p>
+            <p>Time Required: <span id="time-count">0</span> ms</p>
+        </div>
+        <h3>Brenten Schlangen</h3>
+    </body>
+
+</html>
